@@ -1,0 +1,39 @@
+.largeText {
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+#winStreak {
+    font-size: 3em;
+}
+
+#answerContainer {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+#inpAnswer {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    border-radius: 8px;
+    border-color: rgba(185, 185, 185, 0.336);
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 2em;
+    cursor: pointer;
+    transition: font-size 0.25s;
+
+}
+
+.btn:hover {
+    font-size: 1.8em;
+}

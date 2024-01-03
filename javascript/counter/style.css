@@ -1,0 +1,25 @@
+#countNum {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#btnContainer {
+    text-align: center;
+}
+
+.counterButtons {
+    border: none;
+    font-size: 2em;
+    width: 2em;
+    height: 1.6em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+
+}
+
+.counterButtons:hover {
+    background-color: rgb(193, 193, 193);
+}
