@@ -70,7 +70,7 @@ function countDevices(row) {
         return 0
     }
 }
-var numberOfBeams = function (bank) {
+/*var numberOfBeams = function (bank) {
     let laserTotal = 0;
     let prevRowCount = 0;
 
@@ -90,4 +90,21 @@ var numberOfBeams = function (bank) {
 }
 
 let banks = ["000000", "011001", "000000", "010100", "001000"];
-console.log(numberOfBeams(banks));
+console.log(numberOfBeams(banks));*/
+
+
+///////////////Ternary Opereator//////////////
+
+let studentAge = 20;
+
+message = studentAge >= 18 ? "You are an adult" : "You are a minor"
+
+console.log([...message])
+// ['Y', 'o', 'u', ' ', 'a', 'r', 'e', ' ', 'a', 'n', ' ', 'a', 'd', 'u', 'l', 't']
+
+
+function calcAvg(...num) {
+    const sum = num.reduce((acc, num) => acc + num, 0);
+    return sum / num.length
+}
+console.log(calcAvg(1, 2, 3, 4, 5, 6))
